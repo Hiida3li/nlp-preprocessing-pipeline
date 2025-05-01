@@ -11,11 +11,11 @@ arabic_cleaning_pipeline/
 │   └── run_cleaning.py                   # Main script that runs the full pipeline
 │
 ├── notebooks/
-│   └── exploratory_analysis.ipynb        # Optional: for data exploration/testing
+│   └── exploratory_analysis.ipynb        # for data exploration/testing
 │
 ├── tests/
-│   └── test_clean_pipeline.py            # Unit tests for each function (optional)
+│   └── test_clean_pipeline.py            # Unit tests for each function 
 │
-├── requirements.txt                      # List of required Python packages
+├── requirements.txt                      # required Python packages
 ├── README.md                             # Project overview and usage
-└── .gitignore                            # Ignore .csv, .ipynb_checkpoints, etc.
+└── .gitignore                            # Ignore .csv, .ipynb_checkpoints.
