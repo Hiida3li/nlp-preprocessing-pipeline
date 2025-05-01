@@ -1,0 +1,21 @@
+arabic_cleaning_pipeline/
+├── data/
+│   ├── raw/
+│   │   └── your_input_file.csv           # Raw input files go here
+│   └── processed/
+│       └── civil_pii_cleaned.csv         # Cleaned and deduplicated output
+│
+├── src/
+│   ├── __init__.py
+│   ├── clean_pipeline.py                 # All preprocessing functions here
+│   └── run_cleaning.py                   # Main script that runs the full pipeline
+│
+├── notebooks/
+│   └── exploratory_analysis.ipynb        # Optional: for data exploration/testing
+│
+├── tests/
+│   └── test_clean_pipeline.py            # Unit tests for each function (optional)
+│
+├── requirements.txt                      # List of required Python packages
+├── README.md                             # Project overview and usage
+└── .gitignore                            # Ignore .csv, .ipynb_checkpoints, etc.
