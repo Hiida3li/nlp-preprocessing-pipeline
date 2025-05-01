@@ -1,10 +1,7 @@
-# run_cleaning.py
 import pandas as pd
 from clean_pipeline import clean_text, count_words
 
-# Load raw data
-df = pd.read_csv("your_input_file.csv")  # Replace with actual file path
-
+df = pd.read_csv("raw_data.csv")  # Replace with actual file path
 # ✅ Step 1: Remove exact duplicates (before cleaning)
 before = len(df)
 df = df.drop_duplicates(subset='sentences', keep='first')
