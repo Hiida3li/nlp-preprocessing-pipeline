@@ -33,7 +33,7 @@ def remove_special_whitespace(text):
 def fix_punctuation_spacing(text):
     text = re.sub(r'\s+([?.!,])', r'\1', text)
     return text
-
+# Count the words
 def count_words(text):
     return len(text.split())
 
